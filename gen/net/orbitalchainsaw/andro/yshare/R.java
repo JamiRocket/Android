@@ -21,30 +21,54 @@ public final class R {
         public static final int activity_vertical_margin=0x7f040001;
     }
     public static final class drawable {
-        public static final int ic_event_type_default=0x7f020000;
-        public static final int ic_launcher=0x7f020001;
+        public static final int biere=0x7f020000;
+        public static final int cafe=0x7f020001;
+        public static final int console=0x7f020002;
+        public static final int costume=0x7f020003;
+        public static final int guitare=0x7f020004;
+        public static final int horloge=0x7f020005;
+        public static final int ic_event_type_default=0x7f020006;
+        public static final int ic_launcher=0x7f020007;
+        public static final int loupe=0x7f020008;
+        public static final int photo=0x7f020009;
+        public static final int plus=0x7f02000a;
+        public static final int recherche_utilisateur=0x7f02000b;
+        public static final int rechercher_utilisateur=0x7f02000c;
+        public static final int repas=0x7f02000d;
+        public static final int seringue=0x7f02000e;
+        public static final int vin=0x7f02000f;
+        public static final int weed=0x7f020010;
     }
     public static final class id {
-        public static final int ImageView01=0x7f08000c;
-        public static final int ImageView02=0x7f08000b;
-        public static final int ImageView03=0x7f080012;
-        public static final int ImageView04=0x7f080011;
-        public static final int ImageView05=0x7f080010;
-        public static final int TextView01=0x7f08000f;
-        public static final int action_settings=0x7f080013;
-        public static final int button1=0x7f080005;
-        public static final int element_img=0x7f080007;
-        public static final int element_title=0x7f080008;
-        public static final int event_img=0x7f080001;
-        public static final int imageView1=0x7f08000d;
-        public static final int map=0x7f080002;
-        public static final int searchResultsList=0x7f080006;
-        public static final int searchResultsPager=0x7f080000;
-        public static final int userGifts=0x7f08000a;
-        public static final int userGiftsGiven=0x7f080009;
-        public static final int userGiftsRecv=0x7f08000e;
-        public static final int userRating=0x7f080004;
-        public static final int username=0x7f080003;
+        public static final int ImageView01=0x7f080010;
+        public static final int ImageView02=0x7f08000e;
+        public static final int ImageView03=0x7f08001a;
+        public static final int ImageView04=0x7f080018;
+        public static final int ImageView05=0x7f080016;
+        public static final int ProgressBar01=0x7f080011;
+        public static final int ProgressBar02=0x7f080013;
+        public static final int ProgressBar03=0x7f080017;
+        public static final int ProgressBar04=0x7f080019;
+        public static final int ProgressBar05=0x7f08001b;
+        public static final int TextView01=0x7f080015;
+        public static final int action_settings=0x7f08001c;
+        public static final int button1=0x7f080000;
+        public static final int button2=0x7f080001;
+        public static final int button3=0x7f080002;
+        public static final int button4=0x7f080003;
+        public static final int element_img=0x7f08000a;
+        public static final int element_title=0x7f08000b;
+        public static final int event_img=0x7f080005;
+        public static final int imageView1=0x7f080012;
+        public static final int map=0x7f080006;
+        public static final int progressBar1=0x7f08000f;
+        public static final int searchResultsList=0x7f080009;
+        public static final int searchTabContent=0x7f080004;
+        public static final int userGifts=0x7f08000d;
+        public static final int userGiftsGiven=0x7f08000c;
+        public static final int userGiftsRecv=0x7f080014;
+        public static final int userRating=0x7f080008;
+        public static final int username=0x7f080007;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
@@ -92,5 +116,6 @@ public final class R {
  All customizations that are NOT specific to a particular API-level can go here. 
          */
         public static final int AppTheme=0x7f060001;
+        public static final int UserStatTitle=0x7f060002;
     }
 }

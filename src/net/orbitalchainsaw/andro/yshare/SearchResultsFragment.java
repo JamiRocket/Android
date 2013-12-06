@@ -21,7 +21,7 @@ public class SearchResultsFragment extends Fragment{
 		
 		ListView list = (ListView)rootView.findViewById(R.id.searchResultsList);
 		SearchResultsAdapter adapter = new SearchResultsAdapter(
-				getActivity(), R.layout.fragment_search_results_element);
+				getActivity(), R.layout.fragment_search_results_element, events);
 		list.setAdapter(adapter);
 		
 		return rootView;

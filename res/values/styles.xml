@@ -17,10 +17,9 @@
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
     </style>
     
-    <!-- 
-    <style name="user_stat_title">
-        <item name="android:background"
+    <style name="UserStatTitle" parent="@android:style/TextAppearance.Medium">
+        <item name="android:background">#937373</item>
+        <item name="android:padding">4dp</item>
     </style>
-    -->
 
 </resources>

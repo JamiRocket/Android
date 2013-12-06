@@ -1,5 +1,7 @@
 package net.orbitalchainsaw.andro.yshare;
 
+import java.util.ArrayList;
+
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -11,9 +13,9 @@ import android.widget.TextView;
 public class SearchResultsAdapter extends ArrayAdapter<Event>{
 	private static int resId;
 	private static Context context;
-	private static Event[] events;
+	private static ArrayList<Event> events;
 
-	public SearchResultsAdapter(Context context, int resource, Event[] events) {
+	public SearchResultsAdapter(Context context, int resource, ArrayList<Event> events) {
 		super(context, resource);
 		
 		this.resId = resource;
@@ -30,7 +32,7 @@ public class SearchResultsAdapter extends ArrayAdapter<Event>{
 		ImageView eventImg = (ImageView)rowView.findViewById(R.id.element_img);
 		
 		FillSearchResultTask fillSearchResultTask = new FillSearchResultTask(eventTitle, eventImg);
-		fillSearchResultTask.execute(events[position]);
+		fillSearchResultTask.execute(events.get(position));
 		
 		return rowView;		
 	}
